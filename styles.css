@@ -7,6 +7,7 @@
 body{
     background-color: #081b29;
     color: #ededed;
+   
 }
 .header{
     position: fixed;
@@ -58,6 +59,7 @@ body{
     height: 100vh;
     display: flex;
     padding: 0 10%;
+    
 }
 .welcome-content{
     max-width: 600px;
@@ -80,9 +82,9 @@ body{
 .welcome-content .btn-box{
     display: flex;
     justify-content: space-between;
-    width: 345px;
+    width: 350px;
     height: 50px;
-
+    
 }
 .btn-box a{
     display: inline-flex;
@@ -134,7 +136,7 @@ body{
 .home-sci{
     position: absolute;
     bottom: 40px;
-    width: 200px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -174,4 +176,12 @@ body{
 }
 .home-sci a:hover{
     color: #081b29;
+}
+.profile_photo{
+    display: flex;
+}
+.profile{
+  margin: 30px 150px 10px 100px;
+    width: 80%;
+    border-radius: 20%;
 }
